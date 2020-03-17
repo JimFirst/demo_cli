@@ -11,7 +11,7 @@ const constRouter = [
 const variableRouter = [
   {
     path: '/',
-    name: 'HelloWorld',
+    redirect: '/child',
     component: () => import('@/components/layout/layout'),
     children: [
       {
